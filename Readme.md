@@ -6,7 +6,7 @@ With a machine that contains 2 sockets each one has 10 cores and with hyperthrea
 So the total of our logical units is 40 cores.
 The topology of the machine is as below in the figure[2]
 
-![topology](https://www.github.com/chakib-belgaid/parallel_strategy/figures/topology.png)
+![topology](https://github.com/chakib-belgaid/parallel_strategy/blob/master/figures/topology.png)
 
 ## Running strategies
 
@@ -29,7 +29,7 @@ And so we pinned the programm on the following cores : 0,1,2,3,4,5,6,7,8,9
 ### Experimental process
 
 To test those strategies, we run the same programm we executed the programm with different woarkload from 0% to 100% when each time x% means how much we use the unit that we are executing on it.
-![htop](https://www.github.com/chakib-belgaid/parallel_strategy/figures/htop.png)
+![htop](https://github.com/chakib-belgaid/parallel_strategy/blob/master/figures/htop.png)
 
 The figure abouve shows an example of the program when he is using 75% of the cpu [each thread use 75%]
 
@@ -37,7 +37,7 @@ The figure abouve shows an example of the program when he is using 75% of the cp
 
 The following graph shows the energy consumption of the diffrent Strategies for multiple levels of workload
 
-![plot](https://www.github.com/chakib-belgaid/parallel_strategy/figures/plot.png)
+![plot](https://github.com/chakib-belgaid/parallel_strategy/blob/master/figures/plot.png)
 
 ## Conclusion
 
