@@ -28,7 +28,7 @@ And so we pinned the programm on the following cores : 0,1,2,3,4,5,6,7,8,9
 
 ### Experimental process
 
-To test those strategies, we run the same programm we executed the programm with different woarkload from 0% to 100% when each time x% means how much we use the unit that we are executing on it.
+To test those strategies, we run the same programm multiple times (**10** to be precise)in our case we executed the programm with different woarkload from 0% to 100% when each time x% means how much we use the unit that we are executing on it.
 ![htop](https://github.com/chakib-belgaid/parallel_strategy/blob/master/figures/htop.png)
 
 The figure abouve shows an example of the program when he is using 75% of the cpu [each thread use 75%]
