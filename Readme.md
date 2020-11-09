@@ -48,6 +48,9 @@ However if we are looking for reproduction of the tests than we will try to redu
 - When we are in 100% of workload **the 1st strategy** win
 - When we are betwwen 50% and 90% **the 3dr startetgy** win
 - under 50% the **the 1st strategy** win again
+  we can see this in the figure below
+
+  ![plot](https://github.com/chakib-belgaid/parallel_strategy/blob/master/figures/parallel_strategies_std.png)
 
 ## Futher work
 
